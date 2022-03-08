@@ -33,3 +33,13 @@ function products(orgArr) {
     return updatedArr;
 }
 console.log("Output Array without using Division => ", products(orgArr))
+
+/*
+Outputs:
+========
+
+$ node getProductOfAllOtherElements.js
+Original Array =>  [ 1, 2, 3, 4, 5 ]
+Output Array using Division =>  [ 120, 60, 40, 30, 24 ]
+Output Array without using Division =>  [ 120, 60, 40, 30, 24 ]
+*/
